@@ -29,9 +29,9 @@
  
 // configurazione personale
 // valore produzione su raspberry
-define('ROOTPATH', $_SERVER['HOME'] . '/' ); // default = '/'
+//define('ROOTPATH', $_SERVER['HOME'] . '/' ); // default = '/'
 // valore ambiente ACX
-//define('ROOTPATH', $_SERVER['DOCUMENT_ROOT'] . '/' ); // default = '/'
+define('ROOTPATH', $_SERVER['DOCUMENT_ROOT'] . '/' ); // default = '/'
 define('DAEMONIP', 'localhost'); // default = 'localhost'
 // DEV debug parameters
 //ini_set('display_errors',1);
